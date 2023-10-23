@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
+    <!-- Metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Metadata -->
     <meta name="description" content="it' just a simple landing page with cute dancing girl.">
     <meta name="keywords" content="anime, python, webdevelopment, cybersecurity, naruto, shadow">
     <meta name="author" content="Jay">
@@ -12,16 +12,16 @@
     <meta name="creation-date" content="10-15-2023">
     <meta name="expiry-date" content="11-15-2023">
     <title>Jaykumar Mathukiya's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="asset/css/home.css">
 </head>
 
 <body>
-    <!-- <header id="headerHome">
-        <h1>Welcome to Jaykumar Mathukiya's Portfolio</h1>
-    </header> -->
 
+    <!-- Navigation -->
     <nav id="navHome">
+        <!-- Logo -->
         <div id="logoHome"><img src="/asset/img/logo.png" alt=""></div>
+        <!-- Navigation Menu -->
         <div id="navMenuHome">
             <a href="home.html">Home</a>
             <a href="about.html">About</a>
@@ -31,73 +31,68 @@
         </div>
     </nav>
 
+    <!-- Main Content Container -->
     <div class="containerHome">
-        <h2>About Me</h2>
-        <p>
-            Hello, I am Jaykumar Mathukiya, a DevOps enthusiast and Cybersecurity student at Vilnius University. I am a
-            big fan of isekai anime!
-        </p>
-
-        <h2>My Anime Reviews</h2>
-        <p>
-            Check out my latest anime reviews and recommendations.
-        </p>
-
-        <h2>Study Resources</h2>
-        <p>
-            Explore my study materials related to cybersecurity and DevOps.
-        </p>
-        <h2>Photo Album</h2>
-        <img src="/asset/img/about1.jpg" alt="Photo Album">
-
-        <h2>Electronic Document</h2>
-        <a href="/asset/doc/resume-Sep23.pdf" download>Download Electronic Document</a>
-
-        <div class="listHome">
-            <h2>Lists Example</h2>
-            <ul>
-                <li>List Item 1</li>
-                <li>List Item 2</li>
-                <li>List Item 3</li>
-            </ul>
+        <!-- Header -->
+        <div id="containerHomeMain">
+            <div id="containerHomeHeader">
+                <h3>Welcome to My Webiste</h3>
+            </div>
+            <!-- Text Content -->
+            <p>
+                I am a second-year student at Vilnius University, <br>pursuing a degree in Information Systems and
+                Cybersecurity. <br> My passion for technology
+                drives my ambition to launch a career in the IT and DevOps.
+            </p>
         </div>
 
-        <h2>Graphic Element</h2>
-        <img src="herephoto.com" alt="Graphic Element">
+        <!-- Middle Boxes (Anime Reviews and Study Resources) -->
+        <div class="containerHomeMiddleBox">
+            <!-- Anime Reviews Box -->
+            <div id="containerHomeMiddleBoxAnime" class="hover-box" onclick="window.location.href='anime.html'">
+                <h2>My Anime Reviews</h2>
+                <img src="asset/img/isekai.jpeg" alt="Isekai Anime">
+                <p>
+                    Check out my latest anime reviews and recommendations.
+                </p>
+            </div>
+            <!-- Study Resources Box -->
+            <div id="containerHomeMiddleBoxStudy" class="hover-box" onclick="window.location.href='study.html'">
+                <h2>Study Resources</h2>
+                <img src="asset/img/study.png" alt="Study Resources">
+                <p>
+                    Explore my study materials related to cybersecurity and DevOps.
+                </p>
+            </div>
+        </div>
 
-        <h2>Visible Table</h2>
-        <table border="1">
-            <tr>
-                <td>Row 1, Cell 1</td>
-                <td>Row 1, Cell 2</td>
-            </tr>
-            <tr>
-                <td>Row 2, Cell 1</td>
-                <td>Row 2, Cell 2</td>
-            </tr>
-        </table>
-
-        <h2>Form Example</h2>
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            <input type="submit" value="Submit">
-        </form>
-
-        <h2>DHTML Component (GIF Example)</h2>
-        <img src="heregif.com" alt="DHTML Component">
-
+        <!-- My Favorite Top 5 Anime List -->
+        <div class="listHome">
+            <h2>My Favorite Top 5 Anime</h2>
+            <ul>
+                <li>1. That Time I Got Reincarnated as a Slime</li>
+                <li>2. The Eminence in Shadow</li>
+                <li>3. Mashle: Magic and Muscles</li>
+                <li>4. One Punch Man</li>
+                <li>5. The Daily Life of the Immortal King</li>
+            </ul>
+        </div>
+    </div>
+    <div id="special">
+        <p>Dear Illona Ma'am thanks for the project. You can come to code and search directly for the requirements (ctr+f). </p>
     </div>
 
+    <!-- Footer -->
     <div class="footerHome">
         <p>
             This portfolio website was created by Jaykumar Mathukiya in 2023. All content is for educational and
             entertainment purposes only.
         </p>
-
     </div>
+
+    <!-- JavaScript & audio -->
+    <audio id="audio" src="asset/sound/onichan.mp3"></audio>
+    <script src="app.js"></script>
 </body>
 
 </html>

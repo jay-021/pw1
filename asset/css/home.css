@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playpen Sans', sans-serif;
+    color: white;
+}
+
+body{
+    background-color:black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#navHome{
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+#logoHome{
+    display: flex;
+
+}
+
+#logoHome img{
+    height: 90px;
+    width: 90px;
+    /* background-color: red; */
+    margin-left: 0;
+}
+#navMenuHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navHome a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+
+.containerHome {
+        padding: 20px;
+    /* background-color: white; */
+    /* border-radius: 10px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:#000000;
+}
+.containerHome p{
+    /* background-color: blue; */
+    color:white;
+
+}
+#containerHomeMain {
+    /* background-image: url("asset/img/cyber.jpeg"); 
+    background-size: cover; 
+    background-position: center;  */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#containerHomeMain p{
+    padding: 20px;
+    text-align: center;
+}
+
+#containerHomeHeader{
+    padding: 20px;
+    text-align: center;
+    margin-top: -80px;
+}
+.containerHomeMiddleBox{
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* background-color: red; */
+}
+#containerHomeMiddleBoxAnime{
+    /* background-color: blue; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#containerHomeMiddleBoxStudy{
+    /* background-color: blue; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hover-box {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center;
+    position: relative;
+}
+
+.hover-box img {
+    /* width: 150px; */
+    height: auto;
+    margin-bottom: 10px;
+    transition: opacity 0.3s ease; 
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+.hover-box p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none; 
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.hover-box:hover img {
+    opacity: 0; 
+
+}
+
+.hover-box:hover p {
+    display: flex; 
+}
+
+.hover-box:hover {
+    transform: scale(1.05); 
+}
+
+.listHome {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    /* border-radius: 10px; */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.listHome h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.listHome ul {
+    list-style: none;
+    padding: 0;
+}
+
+.listHome li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.listHome li:hover {
+    color: #4CAF50; /* Change color on hover */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.listHome li:hover:before {
+    content: "\2022"; /* Add bullet point before list item on hover */
+    color: #4CAF50;
+    margin-right: 5px;
+}
+#special{
+    height: auto;
+    width: auto;
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    background-color:black;
+    font-size: xx-small;
+}
+.footerHome {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
