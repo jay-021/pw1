@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: black;
+}
+
+.containerAbout {
+    display: flex;
+    align-items: center;
+    /* background-color: red ; */
+    justify-content: space-around;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.profileBox {
+    display: flex;
+    width: calc(100% - 40px); 
+    height: auto;
+    justify-content: space-around;
+    /* background-color: blue; */
+    align-items: center;
+    margin: 20px; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+
+.profileImage img {
+    width: auto;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: auto;
+    transition: transform 0.3s ease;
+}
+
+.profileDescription {
+    /* background-color: red; */
+    width: calc(100% - 400px); 
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align:center;
+    transition: transform 0.3s ease;
+}
+
+.profileDescription p {
+    margin: 0;
+}
+.profileImage img:hover,
+.profileDescription:hover {
+    transform: scale(1.05);
+}
+.downloadButton {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: 100px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.downloadButton:hover
+{
+    transform: scale(2.05);
+}
+
+
+#navHome {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#logoHome {
+    display: flex;
+}
+
+#logoHome img {
+    height: 90px;
+    width: 90px;
+    margin-left: 0;
+}
+
+#navMenuHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navHome a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footerHome {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
