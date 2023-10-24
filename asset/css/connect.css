@@ -8,7 +8,7 @@ body {
 
 /* Navigation */
 #navHome {
-    background-color: #000000;
+    background: transparent;
     padding: 10px;
     text-align: center;
     display: flex;
