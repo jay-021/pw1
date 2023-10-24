@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;500;600;700;800&display=swap');
+
 body {
     background-color: black;
     margin: 0;
@@ -34,7 +36,7 @@ body {
     margin: 0 15px;
 }
 
-/* Background Image and Text */
+
 #backgroundContainer {
     position: relative;
     text-align: center;
@@ -65,20 +67,7 @@ body {
     /* margin-right: 50px; */
 
 }
-/* .containerConnect {
-    display: flex; */
-    /* flex-direction: column;  */
-    /* align-items: center;  */
-    /* background-color: green; */
-    /* justify-content: center ;
-    
-    padding: 40px;
-    width: 100%;
-    margin-bottom: 100px;
-    height: 100vh;  */
-/* } */ 
 
-/* Contact Form */
 #contactForm {
     background-color: #1c1c1c; 
     /* background-color: yellow; */
