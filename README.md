@@ -5,3 +5,4 @@
  I use Git and Github for version controlling. here is link to that page and webiste.
  github link : https://github.com/jay-021/pw1
  githubpages link : https://jay-021.github.io/pw1/
+website is also live in aws s3 bucket here is link : http://portfoliosite21.s3-website.eu-central-1.amazonaws.com/
