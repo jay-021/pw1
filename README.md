@@ -6,3 +6,4 @@
  github link : https://github.com/jay-021/pw1
  githubpages link : https://jay-021.github.io/pw1/
 website is also live in aws s3 bucket here is link : http://portfoliosite21.s3-website.eu-central-1.amazonaws.com/
+After adding https using AWS CloudFront : https://d128vf5t34t9sj.cloudfront.net/
